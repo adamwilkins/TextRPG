@@ -5,10 +5,19 @@
 import java.util.*;
 
 public class Choice {
-    public void input(){
+
+    String fateofChoice = null;
+
+    public String input(){
         Scanner keyboard = new Scanner(System.in);
-        String fateofChoice = keyboard.nextLine();
-        
+
+        while(fateofChoice != "left" || fateofChoice != "right" || fateofChoice != "forward"){
+
+            fateofChoice = keyboard.nextLine();
+
+        }
+
+        return fateofChoice;
 
     }
 }

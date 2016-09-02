@@ -5,7 +5,7 @@ public class Room implements iRoom {
 
     public void welcome(){
         System.out.println("you walking into a room.");
-        System.out.println("its quiet... to quiet.");
+        System.out.println("its quiet... too quiet.");
     } //description of the room
 
     public void decision(){
